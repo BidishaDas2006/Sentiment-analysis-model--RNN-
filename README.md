@@ -30,7 +30,7 @@ Each review is preprocessed before being fed into the neural network.
 
 ---
 
-## 🧹 Data Preprocessing
+## 🧹 Text Preprocessing
 
 The following preprocessing steps were applied:
 
@@ -38,7 +38,10 @@ The following preprocessing steps were applied:
 - Removing HTML tags
 - Removing punctuation
 - Tokenization
-- Padding sequences
+- Removing stopwords
+- Stemming
+- Encoding
+- Vectorization
 
 These steps help convert raw text into numerical representations suitable for deep learning models.
 
